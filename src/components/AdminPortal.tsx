@@ -262,7 +262,12 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({
     }
   };
 
-  const handleAdminLogout = () => {
+  const handleAdminLogout = async () => {
+    try {
+      await api.adminLogout();
+    } catch (e) {
+      console.error('Error during admin logout:', e);
+    }
     setIsAdminLoggedIn(false);
     onCloseAdmin();
   };
@@ -642,15 +647,19 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({
               </div>
             )}
 
+            <div className="p-3 bg-blue-50/80 rounded-xl border border-blue-200 text-blue-900 text-xs">
+              Mendukung login via akun <strong>Supabase Auth</strong> (Email & Kata Sandi) serta akun Administrator lokal (<em>admin</em>).
+            </div>
+
             <div>
               <label className="block text-xs font-bold text-slate-700 mb-1 uppercase tracking-wider">
-                Username Admin
+                Username / Email Admin
               </label>
               <input
                 type="text"
                 value={usernameInput}
                 onChange={(e) => setUsernameInput(e.target.value)}
-                placeholder="Masukkan username admin"
+                placeholder="Username (admin) atau Email Supabase"
                 className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm font-medium focus:ring-2 focus:ring-blue-600 focus:outline-none"
                 required
               />
@@ -664,7 +673,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({
                 type="password"
                 value={passwordInput}
                 onChange={(e) => setPasswordInput(e.target.value)}
-                placeholder="Masukkan password admin"
+                placeholder="Masukkan kata sandi admin"
                 className="w-full px-4 py-2.5 rounded-xl border border-slate-300 text-sm font-medium focus:ring-2 focus:ring-blue-600 focus:outline-none"
                 required
               />

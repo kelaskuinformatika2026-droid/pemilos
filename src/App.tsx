@@ -7,6 +7,7 @@ import React, { useState, useEffect } from 'react';
 import { Candidate, ElectionConfig, ElectionResults, VoterSession } from './types';
 import { INITIAL_CANDIDATES, INITIAL_CONFIG } from './utils/defaultAssets';
 import { api } from './services/api';
+import { getSavedAdminSession } from './lib/supabase';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { HomeView } from './components/HomeView';
@@ -50,6 +51,14 @@ export default function App() {
       }
     }
   };
+
+  // Check active admin session on mount
+  useEffect(() => {
+    const session = getSavedAdminSession();
+    if (session) {
+      setIsAdminLoggedIn(true);
+    }
+  }, []);
 
   // Initial load
   useEffect(() => {

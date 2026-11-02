@@ -328,6 +328,13 @@
   "votes": [],
   "auditLogs": [
     {
+      "id": "log-1793589140432-akzi",
+      "timestamp": "2026-11-02T03:12:20.432Z",
+      "actor": "Administrator",
+      "action": "LOGIN_ADMIN",
+      "details": "Login administrator berhasil dari antarmuka web."
+    },
+    {
       "id": "log-1793580063915-o1ez",
       "timestamp": "2026-11-02T00:41:03.915Z",
       "actor": "Administrator",
@@ -386,7 +393,7 @@
   ],
   "admin": {
     "username": "admin",
-    "passwordHash": "admin123",
+    "passwordHash": "pbkdf2:100000:fec065f945a4b2b383912b7b9a61c867:ebbb206dd1b6e319e8435fa722ccbbdbe730fd8c26b795fc55d3c5084000b2a0f5ac40f85b32e7785c99f773b90a99ffdd2ef36617338101cf615d0e1be51dff",
     "name": "Administrator KPU OSIS SMA Pasundan 8"
   },
   "supabase": {
