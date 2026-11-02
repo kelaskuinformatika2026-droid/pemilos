@@ -318,27 +318,42 @@ export async function saveSupabaseConfig(rawUrl: string, key: string, dbUrl?: st
   return testRes;
 }
 
-export function getSupabaseStatus() {
+export async function getSupabaseStatus() {
   const db = readDatabase() as any;
-  const rawUrl = db.supabase?.url || process.env.SUPABASE_URL || '';
+  // Vercel serverless files are not persistent. Prefer deployment environment variables
+  // and perform a live database check instead of trusting a flag stored in local JSON.
+  const rawUrl = process.env.SUPABASE_URL || db.supabase?.url || '';
   const url = normalizeSupabaseUrl(rawUrl);
-  const key = db.supabase?.key || process.env.SUPABASE_ANON_KEY || '';
+  // Service-role key is server-only and allows health checks of RLS-protected tables.
+  // Never expose this value to VITE_* client variables.
+  const key = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY || db.supabase?.key || '';
   const dbUrl = db.supabase?.dbUrl || '';
-  const maskedKey = key ? `${key.substring(0, 12)}...${key.substring(key.length - 6)}` : '';
+  const maskedKey = key ? `${key.substring(0, 8)}...${key.substring(key.length - 4)}` : '';
 
-  const isConnected = Boolean(db.supabase?.isConnected || (url && key && db.supabase?.tablesVerified?.length > 0));
-  const verifiedTables = db.supabase?.tablesVerified && db.supabase.tablesVerified.length > 0
-    ? db.supabase.tablesVerified
-    : (isConnected ? ['candidates', 'voters', 'election_config', 'anonymous_votes', 'audit_logs'] : []);
+  if (!url || !key) {
+    return {
+      isConfigured: false,
+      isConnected: false,
+      url,
+      maskedKey,
+      dbUrl,
+      lastChecked: new Date().toISOString(),
+      tablesVerified: [],
+      message: 'Environment variable SUPABASE_URL dan SUPABASE_SERVICE_ROLE_KEY belum dikonfigurasi di Vercel.'
+    };
+  }
 
+  const liveCheck = await testSupabaseConnection(url, key);
   return {
-    isConfigured: Boolean(url && key),
-    isConnected,
-    url: url || '',
+    isConfigured: true,
+    isConnected: liveCheck.isConnected,
+    url,
     maskedKey,
     dbUrl,
-    lastChecked: db.supabase?.lastChecked || new Date().toISOString(),
-    tablesVerified: verifiedTables
+    lastChecked: new Date().toISOString(),
+    tablesVerified: liveCheck.verifiedTables,
+    missingTables: liveCheck.missingTables,
+    message: liveCheck.message
   };
 }
 

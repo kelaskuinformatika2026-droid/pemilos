@@ -952,9 +952,9 @@ apiRouter.post('/admin/reset-votes', requireAdmin, async (req: Request, res: Res
 });
 
 // --- SUPABASE INTEGRATION API ---
-apiRouter.get('/supabase/status', requireAdmin, (req: Request, res: Response) => {
+apiRouter.get('/supabase/status', requireAdmin, async (req: Request, res: Response) => {
   try {
-    const status = getSupabaseStatus();
+    const status = await getSupabaseStatus();
     res.json({ success: true, status });
   } catch (err: any) {
     res.status(500).json({ success: false, message: err.message });
