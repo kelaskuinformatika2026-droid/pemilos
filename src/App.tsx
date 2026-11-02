@@ -62,7 +62,7 @@ export default function App() {
 
     const interval = setInterval(() => {
       fetchData(false);
-    }, 4000);
+    }, 8000);
 
     const handleFocus = () => fetchData(false);
     const handleVisibilityChange = () => {

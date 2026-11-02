@@ -1071,6 +1071,26 @@ app.post('/api/cloudsql/sync', async (req: Request, res: Response) => {
   }
 });
 
+// API 404 Handler - ensure all unmatched /api routes return JSON, never HTML
+app.all('/api/*', (req: Request, res: Response) => {
+  res.status(404).json({
+    success: false,
+    message: `Endpoint API ${req.method} ${req.path} tidak ditemukan.`
+  });
+});
+
+// Global Error Handler for API routes - ensures JSON response on exceptions
+app.use((err: any, req: Request, res: Response, next: any) => {
+  console.error('[Express API Error]', err);
+  if (res.headersSent) {
+    return next(err);
+  }
+  res.status(err.status || 500).json({
+    success: false,
+    message: err.message || 'Terjadi kesalahan internal pada server.'
+  });
+});
+
 // Setup Vite middleware or serve static dist
 async function setupServer() {
   // Sync data to Cloud SQL on startup if configured
