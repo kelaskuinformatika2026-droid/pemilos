@@ -172,31 +172,6 @@ export const INITIAL_CANDIDATES: Candidate[] = [
     ],
     motto: "Inovasi Tanpa Batas, Dedikasi Tanpa Henti, Berbakti Sepenuh Hati.",
     colorTheme: "from-emerald-900 to-slate-900"
-  },
-  {
-    id: "cand-03",
-    number: "03",
-    chairmanName: "Dimas Arya Pratama",
-    chairmanClass: "XI IPS 1",
-    chairmanPhoto: DEFAULT_AVATARS.male3,
-    viceChairmanName: "Naila Syifa Aulia",
-    viceChairmanClass: "XI MIPA 2",
-    viceChairmanPhoto: DEFAULT_AVATARS.female3,
-    vision: "Menciptakan OSIS SMA Pasundan 8 Bandung yang BERDIKARI (Berakhlak, Edukatif, Responsif, Dinamis, Inspiratif, Kolaboratif, Aspiratif, Ramah, dan Integritas) berorientasi global.",
-    mission: [
-      "Meningkatkan ketakwaan kepada Tuhan Yang Maha Esa melalui kegiatan keagamaan yang toleran dan harmonis.",
-      "Mendorong program pertukaran wawasan, webinar karir, dan persiapan dunia perkuliahan sejak dini.",
-      "Menggerakkan kepedulian lingkungan hidup dan kegiatan sosial peduli warga sekitar sekolah.",
-      "Menyediakan saluran keluhan fasilitas dan aspirasi siswa yang ditindaklanjuti secara cepat dalam 2x24 jam."
-    ],
-    programs: [
-      "Pasundan Career & College Expo: Mengundang alumni sukses dan universitas ternama untuk sesi bimbingan karir.",
-      "Liga Olahraga Antar Kelas (Class Meeting Reborn): Kompetisi e-sports, basket, futsal, dan catur berhadiah piala bergilir.",
-      "Peduli Pasundan Berbagi: Aksi sosial tahunan santunan yatim dan pembagian sembako dari infaq siswa.",
-      "Studio Kreatif Pasundan: Fasilitasi peralatan multimedia dan podcasting untuk ekskul jurnalistik dan videografi."
-    ],
-    motto: "Satu Cita, Sejuta Karya: Satukan Semangat untuk Pasundan Juara!",
-    colorTheme: "from-amber-900 to-slate-950"
   }
 ];
 

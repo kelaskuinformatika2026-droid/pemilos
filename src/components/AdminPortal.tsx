@@ -543,7 +543,7 @@ export const AdminPortal: React.FC<AdminPortalProps> = ({
       case 'factory':
         setResetModalInfo({
           title: 'Pulihkan ke Setelan Pabrik Demo SMA Pasundan 8',
-          description: 'Mengembalikan aplikasi ke data awal resmi SMA Pasundan 8 Bandung (3 paslon resmi, 25 DPT siswa, kotak suara bersih 0 suara siap digunakan).',
+          description: 'Mengembalikan aplikasi ke data awal resmi SMA Pasundan 8 Bandung (2 paslon resmi, 25 DPT siswa, kotak suara bersih 0 suara siap digunakan).',
           warning: 'Perubahan custom yang dibuat sebelumnya akan digantikan oleh dataset resmi SMA Pasundan 8 Bandung.',
           actionButton: 'Pulihkan Setelan Pabrik',
           dangerLevel: 'critical'

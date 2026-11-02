@@ -463,7 +463,7 @@ export const VotingBoothView: React.FC<VotingBoothViewProps> = ({
       )}
 
       {/* Ballot Cards Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className={`grid grid-cols-1 ${candidates.length === 2 ? 'md:grid-cols-2 max-w-4xl mx-auto' : 'md:grid-cols-3'} gap-8`}>
         {candidates.map((candidate) => (
           <div
             key={candidate.id}

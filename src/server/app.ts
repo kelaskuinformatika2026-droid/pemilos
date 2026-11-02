@@ -898,7 +898,7 @@ apiRouter.post('/admin/reset-data', requireAdmin, async (req: Request, res: Resp
         db.votes = [];
         db.config = { ...INITIAL_CONFIG, status: 'active', isResultsPublished: false };
         actionLabel = 'RESET_SETELAN_PABRIK';
-        responseMessage = 'Sistem berhasil dikembalikan ke Setelan Pabrik Demo SMA Pasundan 8 Bandung (3 paslon resmi, 25 DPT siswa, kotak suara bersih).';
+        responseMessage = 'Sistem berhasil dikembalikan ke Setelan Pabrik Demo SMA Pasundan 8 Bandung (2 paslon resmi, 25 DPT siswa, kotak suara bersih).';
         await resetSupabaseData('all');
         supabaseResult = await syncLocalDataToSupabase();
         break;

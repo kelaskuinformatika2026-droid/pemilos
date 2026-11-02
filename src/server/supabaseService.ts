@@ -426,6 +426,21 @@ export async function syncLocalDataToSupabase() {
       } else {
         logs.push(`${cands.length} pasangan calon berhasil disinkronkan ke Supabase.`);
       }
+
+      // Reconcile and prune any removed candidates from Supabase
+      try {
+        const currentCandIds = db.candidates.map(c => c.id);
+        const { data: remoteCands } = await client.from('candidates').select('id');
+        if (remoteCands && remoteCands.length > 0) {
+          const toDelete = remoteCands.filter(rc => !currentCandIds.includes(rc.id));
+          for (const rem of toDelete) {
+            await client.from('candidates').delete().eq('id', rem.id);
+            logs.push(`Supabase: Paslon lama (${rem.id}) berhasil dibersihkan dari database.`);
+          }
+        }
+      } catch (pruneErr: any) {
+        console.warn('Prune Supabase candidates notice:', pruneErr?.message);
+      }
       break;
     }
 

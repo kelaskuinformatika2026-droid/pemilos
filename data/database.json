@@ -71,31 +71,6 @@
       ],
       "motto": "Inovasi Tanpa Batas, Dedikasi Tanpa Henti, Berbakti Sepenuh Hati.",
       "colorTheme": "from-emerald-900 to-slate-900"
-    },
-    {
-      "id": "cand-03",
-      "number": "03",
-      "chairmanName": "Dimas Arya Pratama",
-      "chairmanClass": "XI IPS 1",
-      "chairmanPhoto": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 240\" width=\"200\" height=\"240\">\n    <rect width=\"200\" height=\"240\" rx=\"20\" fill=\"%23EFF6FF\"/>\n    <circle cx=\"100\" cy=\"85\" r=\"42\" fill=\"%23FBD5B5\"/>\n    <path d=\"M 56,70 C 56,38 82,24 100,24 C 118,24 144,38 144,70 C 130,48 116,42 100,44 C 84,42 70,48 56,70 Z\" fill=\"%2327272A\"/>\n    <ellipse cx=\"88\" cy=\"82\" rx=\"4\" ry=\"4.5\" fill=\"%2318181B\"/>\n    <ellipse cx=\"112\" cy=\"82\" rx=\"4\" ry=\"4.5\" fill=\"%2318181B\"/>\n    <path d=\"M 92,103 Q 100,113 108,103\" fill=\"none\" stroke=\"%23C2410C\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <path d=\"M 38,240 L 38,172 C 38,148 70,136 100,136 C 130,136 162,148 162,172 L 162,240 Z\" fill=\"%231E3A8A\"/>\n    <polygon points=\"100,136 116,190 84,190\" fill=\"%23FFFFFF\"/>\n    <polygon points=\"98,148 102,148 104,192 100,206 96,192\" fill=\"%23F59E0B\"/>\n    <circle cx=\"65\" cy=\"176\" r=\"7\" fill=\"%23F59E0B\" stroke=\"%23FFFFFF\" stroke-width=\"1.5\"/>\n  </svg>",
-      "viceChairmanName": "Naila Syifa Aulia",
-      "viceChairmanClass": "XI MIPA 2",
-      "viceChairmanPhoto": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 240\" width=\"200\" height=\"240\">\n    <rect width=\"200\" height=\"240\" rx=\"20\" fill=\"%23FFFBEB\"/>\n    <!-- Hijab with navy accent -->\n    <path d=\"M 100,34 C 64,34 54,74 54,115 C 54,162 84,180 100,180 C 116,180 146,162 146,115 C 146,74 136,34 100,34 Z\" fill=\"%231E293B\"/>\n    <ellipse cx=\"100\" cy=\"100\" rx=\"29\" ry=\"35\" fill=\"%23FDE68A\"/>\n    <ellipse cx=\"89\" cy=\"97\" rx=\"3.5\" ry=\"4\" fill=\"%230F172A\"/>\n    <ellipse cx=\"111\" cy=\"97\" rx=\"3.5\" ry=\"4\" fill=\"%230F172A\"/>\n    <path d=\"M 94,116 Q 100,123 106,116\" fill=\"none\" stroke=\"%23B45309\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <!-- Blazer -->\n    <path d=\"M 35,240 L 35,175 C 35,150 70,140 100,140 C 130,140 165,150 165,175 L 165,240 Z\" fill=\"%230F172A\"/>\n    <polygon points=\"100,150 115,220 85,220\" fill=\"%23F8FAFC\"/>\n    <circle cx=\"62\" cy=\"175\" r=\"7\" fill=\"%23F59E0B\" stroke=\"%23FFFFFF\" stroke-width=\"1.5\"/>\n  </svg>",
-      "vision": "Menciptakan OSIS SMA Pasundan 8 Bandung yang BERDIKARI (Berakhlak, Edukatif, Responsif, Dinamis, Inspiratif, Kolaboratif, Aspiratif, Ramah, dan Integritas) berorientasi global.",
-      "mission": [
-        "Meningkatkan ketakwaan kepada Tuhan Yang Maha Esa melalui kegiatan keagamaan yang toleran dan harmonis.",
-        "Mendorong program pertukaran wawasan, webinar karir, dan persiapan dunia perkuliahan sejak dini.",
-        "Menggerakkan kepedulian lingkungan hidup dan kegiatan sosial peduli warga sekitar sekolah.",
-        "Menyediakan saluran keluhan fasilitas dan aspirasi siswa yang ditindaklanjuti secara cepat dalam 2x24 jam."
-      ],
-      "programs": [
-        "Pasundan Career & College Expo: Mengundang alumni sukses dan universitas ternama untuk sesi bimbingan karir.",
-        "Liga Olahraga Antar Kelas (Class Meeting Reborn): Kompetisi e-sports, basket, futsal, dan catur berhadiah piala bergilir.",
-        "Peduli Pasundan Berbagi: Aksi sosial tahunan santunan yatim dan pembagian sembako dari infaq siswa.",
-        "Studio Kreatif Pasundan: Fasilitasi peralatan multimedia dan podcasting untuk ekskul jurnalistik dan videografi."
-      ],
-      "motto": "Satu Cita, Sejuta Karya: Satukan Semangat untuk Pasundan Juara!",
-      "colorTheme": "from-amber-900 to-slate-950"
     }
   ],
   "voters": [

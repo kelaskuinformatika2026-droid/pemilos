@@ -53,18 +53,18 @@ function getInitialVotes(): AnonymousVote[] {
     { id: "vote-02", candidateId: "cand-01", candidateNumber: "01", timestamp: "2026-11-05T08:15:20.300Z" },
     { id: "vote-03", candidateId: "cand-02", candidateNumber: "02", timestamp: "2026-11-05T08:19:05.800Z" },
     { id: "vote-04", candidateId: "cand-01", candidateNumber: "01", timestamp: "2026-11-05T08:24:11.450Z" },
-    { id: "vote-05", candidateId: "cand-03", candidateNumber: "03", timestamp: "2026-11-05T08:35:42.200Z" },
+    { id: "vote-05", candidateId: "cand-02", candidateNumber: "02", timestamp: "2026-11-05T08:35:42.200Z" },
     { id: "vote-06", candidateId: "cand-02", candidateNumber: "02", timestamp: "2026-11-05T08:41:09.110Z" },
     { id: "vote-07", candidateId: "cand-01", candidateNumber: "01", timestamp: "2026-11-05T08:48:33.400Z" },
     { id: "vote-08", candidateId: "cand-02", candidateNumber: "02", timestamp: "2026-11-05T09:02:18.900Z" },
     { id: "vote-09", candidateId: "cand-01", candidateNumber: "01", timestamp: "2026-11-05T09:14:40.150Z" },
-    { id: "vote-10", candidateId: "cand-03", candidateNumber: "03", timestamp: "2026-11-05T09:22:15.600Z" },
+    { id: "vote-10", candidateId: "cand-02", candidateNumber: "02", timestamp: "2026-11-05T09:22:15.600Z" },
     { id: "vote-11", candidateId: "cand-02", candidateNumber: "02", timestamp: "2026-11-05T09:30:50.000Z" },
     { id: "vote-12", candidateId: "cand-01", candidateNumber: "01", timestamp: "2026-11-05T09:44:12.750Z" },
     { id: "vote-13", candidateId: "cand-01", candidateNumber: "01", timestamp: "2026-11-05T09:50:00.000Z" },
     { id: "vote-14", candidateId: "cand-02", candidateNumber: "02", timestamp: "2026-11-05T10:05:32.400Z" },
-    { id: "vote-15", candidateId: "cand-03", candidateNumber: "03", timestamp: "2026-11-05T10:12:19.800Z" },
-    { id: "vote-16", candidateId: "cand-01", candidateNumber: "01", timestamp: "2026-11-05T10:25:44.200Z" }
+    { id: "vote-15", candidateId: "cand-01", candidateNumber: "01", timestamp: "2026-11-05T10:12:19.800Z" },
+    { id: "vote-16", candidateId: "cand-02", candidateNumber: "02", timestamp: "2026-11-05T10:25:44.200Z" }
   ];
 }
 
