@@ -1,0 +1,406 @@
+{
+  "config": {
+    "schoolName": "SMA PASUNDAN 8 BANDUNG",
+    "appName": "E-VOTING OSIS",
+    "slogan": "SUARAMU MENENTUKAN MASA DEPAN OSIS",
+    "academicYear": "2026/2027",
+    "electionTitle": "Pemilihan Ketua & Wakil Ketua OSIS Periode 2026/2027",
+    "electionDate": "2026-11-05",
+    "startTime": "07:30",
+    "endTime": "15:00",
+    "status": "active",
+    "isResultsPublished": false,
+    "schoolLogo": "/assets/aistudio/WhatsApp_Image_2026-09-03_at_07.57.23__1_-removebg-preview__1_-removebg-preview_c8e6c644.png",
+    "osisLogo": "/assets/aistudio/LOGO-OSIS-SMA-FONS-VITAE-2-MARSUDIRINI__1__d0cc8357.png",
+    "schoolBanner": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1600&auto=format&fit=crop",
+    "announcementTitle": "Pemilihan Umum OSIS SMA Pasundan 8 Bandung",
+    "announcementBody": "Gunakan hak suara Anda dengan bijak! Satu siswa hanya berhak memilih satu kali. Pilihan Anda dirahasiakan dan langsung terhitung secara real-time.",
+    "committeeHead": "Dani Setiabudi, S.Pd., M.Si.",
+    "wakasekKesiswaan": "Dewi Halimah, S.Pd., M.M.",
+    "pembinaOsis": "Bahtiar Ali Rahman",
+    "ketuaOsis": "Khoira",
+    "ketuaPanitia": "Diki"
+  },
+  "candidates": [
+    {
+      "id": "cand-01",
+      "number": "01",
+      "chairmanName": "Muhammad Farhan Alfiansyah",
+      "chairmanClass": "XI MIPA 1",
+      "chairmanPhoto": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 240\" width=\"200\" height=\"240\">\n    <rect width=\"200\" height=\"240\" rx=\"20\" fill=\"%23F1F5F9\"/>\n    <circle cx=\"100\" cy=\"85\" r=\"45\" fill=\"%23FBD5B5\"/>\n    <path d=\"M 55,75 C 55,45 80,30 100,30 C 120,30 145,45 145,75 C 135,55 125,50 100,52 C 75,50 65,55 55,75 Z\" fill=\"%231E293B\"/>\n    <!-- Face features -->\n    <ellipse cx=\"88\" cy=\"82\" rx=\"4\" ry=\"5\" fill=\"%230F172A\"/>\n    <ellipse cx=\"112\" cy=\"82\" rx=\"4\" ry=\"5\" fill=\"%230F172A\"/>\n    <path d=\"M 92,102 Q 100,112 108,102\" fill=\"none\" stroke=\"%239A3412\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <!-- Uniform / Blazer Navy -->\n    <path d=\"M 40,240 L 40,175 C 40,150 70,135 100,135 C 130,135 160,150 160,175 L 160,240 Z\" fill=\"%230F172A\"/>\n    <!-- White shirt inner & red school tie -->\n    <polygon points=\"100,135 115,185 85,185\" fill=\"%23FFFFFF\"/>\n    <polygon points=\"98,145 102,145 105,190 100,205 95,190\" fill=\"%23DC2626\"/>\n    <!-- OSIS Pin Badge -->\n    <circle cx=\"65\" cy=\"175\" r=\"7\" fill=\"%23F59E0B\" stroke=\"%23FFFFFF\" stroke-width=\"1.5\"/>\n    <!-- Student name badge -->\n    <rect x=\"125\" y=\"172\" width=\"22\" height=\"7\" rx=\"1.5\" fill=\"%23FFFFFF\"/>\n  </svg>",
+      "viceChairmanName": "Siti Nurhaliza Zahra",
+      "viceChairmanClass": "XI IPS 2",
+      "viceChairmanPhoto": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 240\" width=\"200\" height=\"240\">\n    <rect width=\"200\" height=\"240\" rx=\"20\" fill=\"%23F8FAFC\"/>\n    <!-- Hijab / Scarf in elegant cream-white Pasundan uniform -->\n    <path d=\"M 100,35 C 65,35 55,75 55,115 C 55,160 85,180 100,180 C 115,180 145,160 145,115 C 145,75 135,35 100,35 Z\" fill=\"%23F1F5F9\"/>\n    <!-- Face oval -->\n    <ellipse cx=\"100\" cy=\"98\" rx=\"30\" ry=\"36\" fill=\"%23FED7AA\"/>\n    <ellipse cx=\"89\" cy=\"95\" rx=\"3.5\" ry=\"4\" fill=\"%230F172A\"/>\n    <ellipse cx=\"111\" cy=\"95\" rx=\"3.5\" ry=\"4\" fill=\"%230F172A\"/>\n    <path d=\"M 94,115 Q 100,122 106,115\" fill=\"none\" stroke=\"%23C2410C\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <!-- Blazer Navy -->\n    <path d=\"M 35,240 L 35,175 C 35,150 70,140 100,140 C 130,140 165,150 165,175 L 165,240 Z\" fill=\"%231E3A8A\"/>\n    <!-- Scarf folds -->\n    <polygon points=\"100,150 115,220 85,220\" fill=\"%23E2E8F0\"/>\n    <!-- Gold OSIS pin -->\n    <circle cx=\"62\" cy=\"175\" r=\"7\" fill=\"%23F59E0B\" stroke=\"%23FFFFFF\" stroke-width=\"1.5\"/>\n    <rect x=\"128\" y=\"172\" width=\"22\" height=\"7\" rx=\"1.5\" fill=\"%23FFFFFF\"/>\n  </svg>",
+      "vision": "Mewujudkan OSIS SMA Pasundan 8 Bandung yang PROAKTIF (Prestasi, Optimis, Amanah, Kreatif, Transparan, Inovatif, dan Faktual) berlandaskan nilai-nilai luhur budaya Sunda dan keimanan.",
+      "mission": [
+        "Mengembangkan potensi akademik dan non-akademik siswa melalui wadah ekstrakurikuler yang terstruktur dan didukung penuh.",
+        "Menumbuhkan budaya literasi digital, riset, dan teknologi tepat guna di lingkungan sekolah.",
+        "Menciptakan iklim aspirasi yang transparan, terbuka, dan berintegritas antara siswa, guru, dan pimpinan sekolah.",
+        "Melestarikan nilai kesundaan, sopan santun (Someah Hade Ka Semah), dan kepedulian sosial kemanusiaan."
+      ],
+      "programs": [
+        "Pasundan Fest 2027: Pekan kreativitas seni budaya sunda, sport competition, dan pameran sains antar-SMA se-Bandung Raya.",
+        "Kotak Aspirasi Digital & Podcast Suara Siswa: Wadah resmi keterbukaan komunikasi dan penyaluran bakat.",
+        "Peer-Tutoring Center: Bimbingan belajar sebaya untuk persiapan SNBP, SNBT, dan lomba olimpiade sains.",
+        "Green & Smart Campus: Program daur ulang botol plastik menjadi voucher kantin sehat dan penataan taman kelas."
+      ],
+      "motto": "Bersama Melangkah Nyata, Meraih Prestasi Tertinggi untuk Pasundan 8!",
+      "colorTheme": "from-blue-900 to-indigo-950"
+    },
+    {
+      "id": "cand-02",
+      "number": "02",
+      "chairmanName": "Rayhan Aditya Nugraha",
+      "chairmanClass": "XI MIPA 3",
+      "chairmanPhoto": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 240\" width=\"200\" height=\"240\">\n    <rect width=\"200\" height=\"240\" rx=\"20\" fill=\"%23F0FDF4\"/>\n    <circle cx=\"100\" cy=\"85\" r=\"45\" fill=\"%23FCD34D\" fill-opacity=\"0.4\"/>\n    <circle cx=\"100\" cy=\"85\" r=\"42\" fill=\"%23FDE68A\"/>\n    <path d=\"M 58,72 C 58,40 80,26 100,26 C 122,26 142,40 142,72 C 130,48 118,44 100,45 C 80,44 68,48 58,72 Z\" fill=\"%230F172A\"/>\n    <!-- Glasses -->\n    <ellipse cx=\"88\" cy=\"82\" rx=\"4\" ry=\"4\" fill=\"%230F172A\"/>\n    <ellipse cx=\"112\" cy=\"82\" rx=\"4\" ry=\"4\" fill=\"%230F172A\"/>\n    <rect x=\"76\" y=\"72\" width=\"22\" height=\"18\" rx=\"4\" fill=\"none\" stroke=\"%23475569\" stroke-width=\"2.5\"/>\n    <rect x=\"102\" y=\"72\" width=\"22\" height=\"18\" rx=\"4\" fill=\"none\" stroke=\"%23475569\" stroke-width=\"2.5\"/>\n    <line x1=\"98\" y1=\"80\" x2=\"102\" y2=\"80\" stroke=\"%23475569\" stroke-width=\"2.5\"/>\n    <path d=\"M 92,104 Q 100,113 108,104\" fill=\"none\" stroke=\"%23B45309\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <!-- Navy Uniform -->\n    <path d=\"M 38,240 L 38,172 C 38,148 70,136 100,136 C 130,136 162,148 162,172 L 162,240 Z\" fill=\"%231E293B\"/>\n    <polygon points=\"100,136 116,190 84,190\" fill=\"%23FFFFFF\"/>\n    <polygon points=\"98,148 102,148 104,192 100,206 96,192\" fill=\"%232563EB\"/>\n    <circle cx=\"65\" cy=\"176\" r=\"7\" fill=\"%23F59E0B\" stroke=\"%23FFFFFF\" stroke-width=\"1.5\"/>\n  </svg>",
+      "viceChairmanName": "Anindya Putri Maharani",
+      "viceChairmanClass": "XI BAHASA",
+      "viceChairmanPhoto": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 240\" width=\"200\" height=\"240\">\n    <rect width=\"200\" height=\"240\" rx=\"20\" fill=\"%23FDF2F8\"/>\n    <!-- Hair in ponytail with smart ribbon -->\n    <ellipse cx=\"100\" cy=\"88\" rx=\"42\" ry=\"44\" fill=\"%2318181B\"/>\n    <circle cx=\"100\" cy=\"88\" r=\"38\" fill=\"%23FED7AA\"/>\n    <path d=\"M 60,65 C 68,42 95,36 100,36 C 105,36 132,42 140,65 C 125,50 115,50 100,52 C 85,50 75,50 60,65 Z\" fill=\"%2318181B\"/>\n    <ellipse cx=\"89\" cy=\"86\" rx=\"3.5\" ry=\"4\" fill=\"%2309090B\"/>\n    <ellipse cx=\"111\" cy=\"86\" rx=\"3.5\" ry=\"4\" fill=\"%2309090B\"/>\n    <path d=\"M 93,105 Q 100,113 107,105\" fill=\"none\" stroke=\"%23E11D48\" stroke-width=\"2\" stroke-linecap=\"round\"/>\n    <!-- Blazer navy -->\n    <path d=\"M 38,240 L 38,172 C 38,148 70,136 100,136 C 130,136 162,148 162,172 L 162,240 Z\" fill=\"%230369A1\"/>\n    <polygon points=\"100,136 114,190 86,190\" fill=\"%23FFFFFF\"/>\n    <polygon points=\"98,148 102,148 104,190 100,202 96,190\" fill=\"%23D97706\"/>\n    <circle cx=\"65\" cy=\"176\" r=\"7\" fill=\"%23F59E0B\" stroke=\"%23FFFFFF\" stroke-width=\"1.5\"/>\n  </svg>",
+      "vision": "Menjadikan OSIS SMA Pasundan 8 Bandung sebagai katalisator generasi emas yang mandiri, berkarakter kepemimpinan kuat, adaptif terhadap era Society 5.0, serta berjiwa wirausaha muda.",
+      "mission": [
+        "Membangun sinergi kolaboratif antar organisasi, ekskul, dan komunitas minat bakat tanpa sekat.",
+        "Menyelenggarakan pelatihan soft skill kepemimpinan, public speaking, dan kewirausahaan siswa.",
+        "Mengoptimalkan peran media sosial resmi OSIS sebagai media edukasi, publikasi prestasi, dan berita positif sekolah.",
+        "Mewujudkan lingkungan sekolah yang inklusif, ramah anak, bebas perundungan (anti-bullying), dan sehat mental."
+      ],
+      "programs": [
+        "Pasundan Youth Leadership Camp (PYLC): Pembekalan kepemimpinan tingkat dasar hingga madya untuk perwakilan kelas.",
+        "Studentpreneur Corner: Bazar bulanan hasil karya wirausaha kreatif siswa untuk mendanai kegiatan sosial.",
+        "Mental Health & Wellness Buddy: Kolaborasi bersama guru BK menyediakan konseling santai dan motivasi teman sebaya.",
+        "Digitalisasi Event & Absensi Siswa: Sistem terintegrasi untuk kegiatan sekolah bebas kertas."
+      ],
+      "motto": "Inovasi Tanpa Batas, Dedikasi Tanpa Henti, Berbakti Sepenuh Hati.",
+      "colorTheme": "from-emerald-900 to-slate-900"
+    },
+    {
+      "id": "cand-03",
+      "number": "03",
+      "chairmanName": "Dimas Arya Pratama",
+      "chairmanClass": "XI IPS 1",
+      "chairmanPhoto": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 240\" width=\"200\" height=\"240\">\n    <rect width=\"200\" height=\"240\" rx=\"20\" fill=\"%23EFF6FF\"/>\n    <circle cx=\"100\" cy=\"85\" r=\"42\" fill=\"%23FBD5B5\"/>\n    <path d=\"M 56,70 C 56,38 82,24 100,24 C 118,24 144,38 144,70 C 130,48 116,42 100,44 C 84,42 70,48 56,70 Z\" fill=\"%2327272A\"/>\n    <ellipse cx=\"88\" cy=\"82\" rx=\"4\" ry=\"4.5\" fill=\"%2318181B\"/>\n    <ellipse cx=\"112\" cy=\"82\" rx=\"4\" ry=\"4.5\" fill=\"%2318181B\"/>\n    <path d=\"M 92,103 Q 100,113 108,103\" fill=\"none\" stroke=\"%23C2410C\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <path d=\"M 38,240 L 38,172 C 38,148 70,136 100,136 C 130,136 162,148 162,172 L 162,240 Z\" fill=\"%231E3A8A\"/>\n    <polygon points=\"100,136 116,190 84,190\" fill=\"%23FFFFFF\"/>\n    <polygon points=\"98,148 102,148 104,192 100,206 96,192\" fill=\"%23F59E0B\"/>\n    <circle cx=\"65\" cy=\"176\" r=\"7\" fill=\"%23F59E0B\" stroke=\"%23FFFFFF\" stroke-width=\"1.5\"/>\n  </svg>",
+      "viceChairmanName": "Naila Syifa Aulia",
+      "viceChairmanClass": "XI MIPA 2",
+      "viceChairmanPhoto": "data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 240\" width=\"200\" height=\"240\">\n    <rect width=\"200\" height=\"240\" rx=\"20\" fill=\"%23FFFBEB\"/>\n    <!-- Hijab with navy accent -->\n    <path d=\"M 100,34 C 64,34 54,74 54,115 C 54,162 84,180 100,180 C 116,180 146,162 146,115 C 146,74 136,34 100,34 Z\" fill=\"%231E293B\"/>\n    <ellipse cx=\"100\" cy=\"100\" rx=\"29\" ry=\"35\" fill=\"%23FDE68A\"/>\n    <ellipse cx=\"89\" cy=\"97\" rx=\"3.5\" ry=\"4\" fill=\"%230F172A\"/>\n    <ellipse cx=\"111\" cy=\"97\" rx=\"3.5\" ry=\"4\" fill=\"%230F172A\"/>\n    <path d=\"M 94,116 Q 100,123 106,116\" fill=\"none\" stroke=\"%23B45309\" stroke-width=\"2.5\" stroke-linecap=\"round\"/>\n    <!-- Blazer -->\n    <path d=\"M 35,240 L 35,175 C 35,150 70,140 100,140 C 130,140 165,150 165,175 L 165,240 Z\" fill=\"%230F172A\"/>\n    <polygon points=\"100,150 115,220 85,220\" fill=\"%23F8FAFC\"/>\n    <circle cx=\"62\" cy=\"175\" r=\"7\" fill=\"%23F59E0B\" stroke=\"%23FFFFFF\" stroke-width=\"1.5\"/>\n  </svg>",
+      "vision": "Menciptakan OSIS SMA Pasundan 8 Bandung yang BERDIKARI (Berakhlak, Edukatif, Responsif, Dinamis, Inspiratif, Kolaboratif, Aspiratif, Ramah, dan Integritas) berorientasi global.",
+      "mission": [
+        "Meningkatkan ketakwaan kepada Tuhan Yang Maha Esa melalui kegiatan keagamaan yang toleran dan harmonis.",
+        "Mendorong program pertukaran wawasan, webinar karir, dan persiapan dunia perkuliahan sejak dini.",
+        "Menggerakkan kepedulian lingkungan hidup dan kegiatan sosial peduli warga sekitar sekolah.",
+        "Menyediakan saluran keluhan fasilitas dan aspirasi siswa yang ditindaklanjuti secara cepat dalam 2x24 jam."
+      ],
+      "programs": [
+        "Pasundan Career & College Expo: Mengundang alumni sukses dan universitas ternama untuk sesi bimbingan karir.",
+        "Liga Olahraga Antar Kelas (Class Meeting Reborn): Kompetisi e-sports, basket, futsal, dan catur berhadiah piala bergilir.",
+        "Peduli Pasundan Berbagi: Aksi sosial tahunan santunan yatim dan pembagian sembako dari infaq siswa.",
+        "Studio Kreatif Pasundan: Fasilitasi peralatan multimedia dan podcasting untuk ekskul jurnalistik dan videografi."
+      ],
+      "motto": "Satu Cita, Sejuta Karya: Satukan Semangat untuk Pasundan Juara!",
+      "colorTheme": "from-amber-900 to-slate-950"
+    }
+  ],
+  "voters": [
+    {
+      "id": "vtr-001",
+      "nis": "242510001",
+      "fullName": "Aditya Pratama Putra",
+      "className": "X-1",
+      "accessCode": "P8A901",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-002",
+      "nis": "242510002",
+      "fullName": "Aisyah Nur Rahmah",
+      "className": "X-1",
+      "accessCode": "P8B902",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-003",
+      "nis": "242510003",
+      "fullName": "Alvaro Rizky Ramadhan",
+      "className": "X-2",
+      "accessCode": "P8C903",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-004",
+      "nis": "242510004",
+      "fullName": "Amanda Putri Lestari",
+      "className": "X-2",
+      "accessCode": "P8D904",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-005",
+      "nis": "242510005",
+      "fullName": "Bagus Setiawan",
+      "className": "X-3",
+      "accessCode": "P8E905",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-006",
+      "nis": "242510006",
+      "fullName": "Bella Cantika Dewi",
+      "className": "X-3",
+      "accessCode": "P8F906",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-007",
+      "nis": "242510007",
+      "fullName": "Chandra Wijaya Kusuma",
+      "className": "X-4",
+      "accessCode": "P8G907",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-008",
+      "nis": "242510008",
+      "fullName": "Daffa Fauzan Hakim",
+      "className": "XI MIPA 1",
+      "accessCode": "P8H908",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-009",
+      "nis": "242510009",
+      "fullName": "Devi Anggraeni",
+      "className": "XI MIPA 1",
+      "accessCode": "P8I909",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-010",
+      "nis": "242510010",
+      "fullName": "Eko Prasetyo",
+      "className": "XI MIPA 2",
+      "accessCode": "P8J910",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-011",
+      "nis": "242510011",
+      "fullName": "Fadhil Ahmad Maulana",
+      "className": "XI MIPA 2",
+      "accessCode": "P8K911",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-012",
+      "nis": "242510012",
+      "fullName": "Gita Safitri",
+      "className": "XI IPS 1",
+      "accessCode": "P8L912",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-013",
+      "nis": "242510013",
+      "fullName": "Hafiz Ilham Robbani",
+      "className": "XI IPS 1",
+      "accessCode": "P8M913",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-014",
+      "nis": "242510014",
+      "fullName": "Indah Permatasari",
+      "className": "XI IPS 2",
+      "accessCode": "P8N914",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-015",
+      "nis": "242510015",
+      "fullName": "Kevin Maulana",
+      "className": "XI BAHASA",
+      "accessCode": "P8O915",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-016",
+      "nis": "242510016",
+      "fullName": "Larasati Wulandari",
+      "className": "XII MIPA 1",
+      "accessCode": "P8P916",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-017",
+      "nis": "242510017",
+      "fullName": "Muhammad Zidan Al-Ghifari",
+      "className": "XII MIPA 1",
+      "accessCode": "P8Q917",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-018",
+      "nis": "242510018",
+      "fullName": "Nabila Aurelia",
+      "className": "XII MIPA 2",
+      "accessCode": "P8R918",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-019",
+      "nis": "242510019",
+      "fullName": "Panji Gumilang",
+      "className": "XII IPS 1",
+      "accessCode": "P8S919",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-020",
+      "nis": "242510020",
+      "fullName": "Rina Oktaviani",
+      "className": "XII IPS 2",
+      "accessCode": "P8T920",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-021",
+      "nis": "242510021",
+      "fullName": "Satria Bintang Timur",
+      "className": "XII BAHASA",
+      "accessCode": "P8U921",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-022",
+      "nis": "242510022",
+      "fullName": "Tiara Anjelina",
+      "className": "X-4",
+      "accessCode": "P8V922",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-023",
+      "nis": "242510023",
+      "fullName": "Wahyu Hidayat",
+      "className": "XI IPS 2",
+      "accessCode": "P8W923",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-024",
+      "nis": "242510024",
+      "fullName": "Zahra Salsabila",
+      "className": "XII MIPA 2",
+      "accessCode": "P8X924",
+      "hasVoted": false,
+      "votedAt": null
+    },
+    {
+      "id": "vtr-025",
+      "nis": "242510025",
+      "fullName": "Yoga Pratama",
+      "className": "X-3",
+      "accessCode": "P8Y925",
+      "hasVoted": false,
+      "votedAt": null
+    }
+  ],
+  "votes": [],
+  "auditLogs": [
+    {
+      "id": "log-1793580063915-o1ez",
+      "timestamp": "2026-11-02T00:41:03.915Z",
+      "actor": "Administrator",
+      "action": "SYNC_SUPABASE",
+      "details": "Data pemilihan disinkronkan ke Supabase."
+    },
+    {
+      "id": "log-1793579897284-8ogr",
+      "timestamp": "2026-11-02T00:38:17.284Z",
+      "actor": "Administrator",
+      "action": "SYNC_SUPABASE",
+      "details": "Data pemilihan disinkronkan ke Supabase."
+    },
+    {
+      "id": "log-1793579887860-hlrc",
+      "timestamp": "2026-11-02T00:38:07.860Z",
+      "actor": "Administrator",
+      "action": "SYNC_SUPABASE",
+      "details": "Data pemilihan disinkronkan ke Supabase."
+    },
+    {
+      "id": "log-1793433667457-ulnf",
+      "timestamp": "2026-10-31T08:01:07.457Z",
+      "actor": "Administrator",
+      "action": "RESET_SETELAN_PABRIK",
+      "details": "Sistem berhasil dikembalikan ke Setelan Pabrik Demo SMA Pasundan 8 Bandung (3 paslon resmi, 25 DPT siswa, kotak suara bersih)."
+    },
+    {
+      "id": "log-1793433643111-jbx7",
+      "timestamp": "2026-10-31T08:00:43.111Z",
+      "actor": "Administrator",
+      "action": "RESET_KOTAK_SUARA",
+      "details": "Kotak suara berhasil dikosongkan. Seluruh pemilih (DPT) telah dipulihkan hak suaranya dan hasil pemilihan ditutup kembali."
+    },
+    {
+      "id": "log-1793433612932-3hpc",
+      "timestamp": "2026-10-31T08:00:12.932Z",
+      "actor": "Administrator",
+      "action": "RESET_KOTAK_SUARA",
+      "details": "Kotak suara berhasil dikosongkan. Seluruh pemilih (DPT) telah dipulihkan hak suaranya dan hasil pemilihan ditutup kembali."
+    },
+    {
+      "id": "log-1793417044619-0chk",
+      "timestamp": "2026-10-31T03:24:04.619Z",
+      "actor": "Siswa",
+      "action": "PEMUNGUTAN_SUARA",
+      "details": "Satu suara sah diterima untuk Pasangan Calon No. 02. Hak suara kelas X-3 tercatat digunakan."
+    },
+    {
+      "id": "log-001",
+      "timestamp": "2026-10-31T03:23:22.942Z",
+      "actor": "SISTEM",
+      "action": "INISIALISASI_SISTEM",
+      "details": "Sistem E-Voting OSIS SMA Pasundan 8 Bandung berhasil diinisialisasi."
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "passwordHash": "admin123",
+    "name": "Administrator KPU OSIS SMA Pasundan 8"
+  },
+  "supabase": {
+    "url": "https://jxuombefpwjgvndbqmlj.supabase.co",
+    "key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp4dW9tYmVmcHdqZ3ZuZGJxbWxqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTMzNjAyNjYsImV4cCI6MjEwODkzNjI2Nn0.Pq_f0QYWOdd8qhqFPxdiIh9DK4MVWBdJB1KMInSf9hY",
+    "dbUrl": "",
+    "isConnected": true,
+    "lastChecked": "2026-10-31T07:36:45.993Z",
+    "tablesVerified": [
+      "candidates",
+      "voters",
+      "election_config",
+      "anonymous_votes",
+      "audit_logs"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Remix E-Voting OSIS SMA Pasundan 8 Bandung",
+  "description": "Sistem Pemilihan Ketua dan Wakil Ketua OSIS SMA Pasundan 8 Bandung secara digital, aman, jujur, adil, dan transparan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
