@@ -245,45 +245,19 @@ export const api = {
       }
     } catch (_) {}
 
-    // Fallback: Check voter in Supabase directly (for static Vercel hosting)
+    // Secure fallback: credentials are verified by a SECURITY DEFINER database function.
+    // Never expose voters.access_code or allow direct reads from the voters table.
     try {
       const supabase = getSupabaseClient();
       if (supabase) {
-        const cleanNis = String(nis).trim();
-        const cleanCode = String(accessCode).trim().toUpperCase();
-
-        const { data: voter, error } = await supabase
-          .from('voters')
-          .select('*')
-          .eq('nis', cleanNis)
-          .maybeSingle();
-
-        if (error || !voter) {
-          return {
-            success: false,
-            message: 'NIS tidak ditemukan dalam DPT (Daftar Pemilih Tetap). Silakan hubungi Panitia Pemilihan OSIS.'
-          };
+        const { data, error } = await supabase.rpc('evoting_voter_login', {
+          p_nis: String(nis).trim(),
+          p_access_code: String(accessCode).trim().toUpperCase()
+        });
+        if (error) {
+          return { success: false, message: 'Autentikasi Supabase gagal: ' + error.message };
         }
-
-        if (String(voter.access_code).trim().toUpperCase() !== cleanCode) {
-          return {
-            success: false,
-            message: 'Kode Akses salah. Pastikan Anda memasukkan kode token dengan benar.'
-          };
-        }
-
-        return {
-          success: true,
-          voter: {
-            id: voter.id,
-            nis: voter.nis,
-            fullName: voter.full_name,
-            className: voter.class_name,
-            hasVoted: Boolean(voter.has_voted),
-            votedAt: voter.voted_at || null
-          },
-          electionStatus: 'active'
-        };
+        return data as VoterLoginResponse;
       }
     } catch (e: any) {
       return { success: false, message: 'Gagal autentikasi pemilih: ' + e.message };
@@ -303,37 +277,20 @@ export const api = {
       if (data.success) return data;
     } catch (_) {}
 
-    // Fallback: Submit vote directly to Supabase
+    // Secure fallback: one database transaction validates the voter, marks the DPT row,
+    // and inserts an anonymous ballot. The client never writes either table directly.
     try {
       const supabase = getSupabaseClient();
       if (supabase) {
-        const cleanNis = String(nis).trim();
-        const timestamp = new Date().toISOString();
-        const anonymousVoteId = 'vote-' + Date.now() + '-' + Math.random().toString(36).substring(2, 7);
-
-        // 1. Record anonymous ballot
-        const { error: voteErr } = await supabase.from('anonymous_votes').insert({
-          id: anonymousVoteId,
-          candidate_id: candidateId,
-          candidate_number: candidateId,
-          timestamp
+        const { data, error } = await supabase.rpc('evoting_cast_vote', {
+          p_nis: String(nis).trim(),
+          p_access_code: String(accessCode).trim().toUpperCase(),
+          p_candidate_id: candidateId
         });
-
-        if (voteErr) {
-          return { success: false, message: 'Gagal menyimpan suara ke kotak suara: ' + voteErr.message };
+        if (error) {
+          return { success: false, message: 'Gagal menyimpan suara: ' + error.message };
         }
-
-        // 2. Mark voter as voted
-        await supabase.from('voters').update({
-          has_voted: true,
-          voted_at: timestamp
-        }).eq('nis', cleanNis);
-
-        return {
-          success: true,
-          message: 'Suara Anda berhasil disimpan ke dalam kotak suara digital secara aman dan rahasia.',
-          timestamp
-        };
+        return data as SubmitVoteResponse;
       }
     } catch (e: any) {
       return { success: false, message: 'Gagal mengirimkan suara: ' + e.message };
